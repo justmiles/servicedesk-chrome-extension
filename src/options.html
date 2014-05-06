@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  
+  <head>
+    <title>ServiceDesk Options</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css">
+    <script type="text/javascript" src="inc/jquery.min.js"></script>
+    <script type="text/javascript" src="inc/bootstrap.min.js"></script>
+  </head>
+  
+  <body>
+    <header>
+      <header></header>
+    </header>
+    <div class="container">
+      <div class="hero-unit">
+        <h1>ServiceDesk Options</h1>
+        <p>Settings and more for the ServiceDesk Chrome Plugin</p>
+        <p><a href="http://goo.gl/Tkl2pc" target="_blank" class="btn btn-primary btn-large">Learn more</a></p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="span4">
+						<span class="label" id="status"></span>
+						<legend>API Key</legend>
+						<label>Find your personal <a href="https://desk.gotoassist.com/my_api_token" target="_blank">API key here</a>.</label><br>
+						<input type="text" class="input-block-level input-medium" placeholder="API Key" id="api_key">
+						<legend>Report ID</legend>
+						<label>The report ID can be located here (this is not yet implemented)</label><br>
+						<input type="text" class="input-block-level input-medium" placeholder="reportID" id="reportID">
+						<br>
+						<button type="submit" class="btn btn-primary" id="save">Save</button>
+						<input type="reset" class="btn" value="Reset" id="reset">
+					</div>
+          <div class="span8">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+<script src="options.js"></script>
+
+</html>
